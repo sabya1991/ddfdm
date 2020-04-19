@@ -1,0 +1,10 @@
+Run the file merge_psaap_{alfa/str}_mlb.f (check working directions excel file for location of the file)
+
+This creates psaapc-{alfa/str}_{kinc}.DAT
+
+Each value of kinc gives a particular value of strain which can be found from the bigsource... file in the working(remote) folder.
+
+Copy it to local - Documents/smalldef_mfdm/exampleProblem2/matplotlib. 
+
+Then run python plot_{alfa/str}_paper.py to get output file. 
+
